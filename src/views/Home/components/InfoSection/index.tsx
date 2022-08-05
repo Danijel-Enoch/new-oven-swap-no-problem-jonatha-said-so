@@ -1,6 +1,6 @@
 import { Flex, Text, Button, Link } from '@pancakeswap/uikit'
 import { NextLinkFromReactRouter as RouterLink } from 'components/NextLink'
-import Image from "next/image";
+import Image from 'next/image';
 import { CompositeImageProps } from '../CompositeImage'
 import ColoredWordHeading from '../ColoredWordHeading'
 import bunnyImage from "../../../../../public/images/home/lunar-bunny/r-image-one.png"
