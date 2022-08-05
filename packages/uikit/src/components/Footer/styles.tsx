@@ -53,5 +53,5 @@ export const StyledSocialLinks = styled(SocialLinks)`
 `;
 
 export const StyledText = styled.span`
-  color: ${darkColors.text};
+  color: ${darkColors.textAlt};
 `;
