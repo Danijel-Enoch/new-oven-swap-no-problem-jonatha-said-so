@@ -1,9 +1,9 @@
 import { TranslateFunction } from 'contexts/Localization/types'
 import { SalesSectionProps } from '.'
 
-export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
-  headingText: t('MINING CRYPTOCURRENCY '),
-  bodyText: t('Blockchain Technology'),
+export const infoSectionData = (t: TranslateFunction): SalesSectionProps => ({
+  headingText: t('Swap your curency With Oven'),
+  bodyText: t('Block Chain Technology'),
   reverse: false,
   primaryButton: {
     to: '/swap',
@@ -25,13 +25,13 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
   },
 })
 
-export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
-  headingText: t('Trade anything. No registration, no hassle.'),
-  bodyText: t('Blockchain Technology'),
+export const earnInfoSectionData = (t: TranslateFunction): SalesSectionProps => ({
+  headingText: t('Earn passive income with crypto.'),
+  bodyText: t('PancakeSwap makes it easy to make your crypto work for you.'),
   reverse: true,
   primaryButton: {
     to: '/farms',
-    text: t('Trade Now'),
+    text: t('Explore'),
     external: false,
   },
   secondaryButton: {

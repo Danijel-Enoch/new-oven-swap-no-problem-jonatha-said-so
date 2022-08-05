@@ -1,9 +1,10 @@
 import { Heading, Flex, Text, useMatchBreakpointsContext } from '@pancakeswap/uikit'
 
-const StatCardContent: React.FC<{ headingText: string; bodyText: string; highlightColor: string }> = ({
+const StatCardContent: React.FC<{ headingText: string; bodyText: string; highlightColor: string,ovenColor:string }> = ({
   headingText,
   bodyText,
   highlightColor,
+  ovenColor,
 }) => {
   const { isMobile, isTablet } = useMatchBreakpointsContext()
   const isSmallerScreen = isMobile || isTablet
@@ -21,9 +22,9 @@ const StatCardContent: React.FC<{ headingText: string; bodyText: string; highlig
       mt={[null, null, null, '64px']}
     >
       {isSmallerScreen && remainingWords.length > 13 ? (
-        <Heading scale="lg">{remainingWords}</Heading>
+        <Heading color={ovenColor} scale="lg">{remainingWords}</Heading>
       ) : (
-        <Heading scale="xl">{remainingWords}</Heading>
+        <Heading color={ovenColor} scale="xl">{remainingWords}</Heading>
       )}
       <Heading color={highlightColor} scale="xl" mb="24px">
         {lastWord}

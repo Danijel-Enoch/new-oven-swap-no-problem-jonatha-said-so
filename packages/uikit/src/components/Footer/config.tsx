@@ -7,15 +7,15 @@ export const footerLinks: FooterLinkType[] = [
     label: "About Us",
     items: [
       {
-        label: "Contact",
+        label: "",
         href: "https://docs.pancakeswap.finance/contact-us",
       },
       {
-        label: "Blog",
+        label: "",
         href: "https://medium.com/pancakeswap",
       },
       {
-        label: "Community",
+        label: "",
         href: "https://docs.pancakeswap.finance/contact-us/telegram",
       },
       {

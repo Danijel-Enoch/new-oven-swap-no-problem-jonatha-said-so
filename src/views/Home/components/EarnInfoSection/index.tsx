@@ -1,9 +1,10 @@
 import { Flex, Text, Button, Link } from '@pancakeswap/uikit'
 import { NextLinkFromReactRouter as RouterLink } from 'components/NextLink'
-import Image from "next/image"
-import { CompositeImageProps } from '../CompositeImage'
+import Image from "next/image";
+import CompositeImage, { CompositeImageProps } from '../CompositeImage'
 import ColoredWordHeading from '../ColoredWordHeading'
-import bunnyImage from "../../../../../public/images/home/lunar-bunny/image-left.png"
+import bunnyImage from "../../../../../public/images/home/lunar-bunny/r-image-two.png"
+
 interface SalesSectionButton {
   to: string
   text: string
@@ -25,19 +26,12 @@ const SalesSection: React.FC<SalesSectionProps> = (props) => {
   return (
     <Flex flexDirection="column">
       <Flex
-        flexDirection={['column-reverse', null, null, reverse ? 'row-reverse' : 'row']}
+        flexDirection={['column-reverse', null, null, reverse ? 'row' : 'row']}
         alignItems={['flex-end', null, null, 'center']}
         justifyContent="center"
       >
-         <Flex
-          height={['192px', null, null, '100%']}
-          width={['192px', null, null, '100%']}
-          flex={[null, null, null, '1']}
-          mb={['24px', null, null, '0']}
-        >
-         <Image src={bunnyImage} priority placeholder="blur" />
-        </Flex>
-
+         
+        
         <Flex
           flexDirection="column"
           flex="1"
@@ -48,9 +42,6 @@ const SalesSection: React.FC<SalesSectionProps> = (props) => {
           <ColoredWordHeading text={headingText} />
           <Text color="textSubtle" mb="24px">
             {bodyText}
-          </Text>
-          <Text color="textSubtle" mb="24px">
-          Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
           </Text>
           <Flex>
             <Button mr="16px">
@@ -77,7 +68,14 @@ const SalesSection: React.FC<SalesSectionProps> = (props) => {
             )}
           </Flex>
         </Flex>
-       
+        <Flex
+          height={['192px', null, null, '100%']}
+          width={['192px', null, null, '100%']}
+          flex={[null, null, null, '1']}
+          mb={['24px', null, null, '0']}
+        >
+        <Image src={bunnyImage} priority placeholder="blur" />
+        </Flex>
       </Flex>
     </Flex>
   )

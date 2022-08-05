@@ -18,6 +18,7 @@ const style = {
   [scales.XXL]: {
     fontSize: "48px",
     fontSizeLg: "64px",
+    
   },
 };
 

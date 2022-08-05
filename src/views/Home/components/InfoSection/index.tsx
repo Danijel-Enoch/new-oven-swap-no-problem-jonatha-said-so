@@ -1,9 +1,10 @@
 import { Flex, Text, Button, Link } from '@pancakeswap/uikit'
 import { NextLinkFromReactRouter as RouterLink } from 'components/NextLink'
-import Image from "next/image"
+import Image from "next/image";
 import { CompositeImageProps } from '../CompositeImage'
 import ColoredWordHeading from '../ColoredWordHeading'
-import bunnyImage from "../../../../../public/images/home/lunar-bunny/image-left.png"
+import bunnyImage from "../../../../../public/images/home/lunar-bunny/r-image-one.png"
+
 interface SalesSectionButton {
   to: string
   text: string
@@ -29,15 +30,8 @@ const SalesSection: React.FC<SalesSectionProps> = (props) => {
         alignItems={['flex-end', null, null, 'center']}
         justifyContent="center"
       >
-         <Flex
-          height={['192px', null, null, '100%']}
-          width={['192px', null, null, '100%']}
-          flex={[null, null, null, '1']}
-          mb={['24px', null, null, '0']}
-        >
-         <Image src={bunnyImage} priority placeholder="blur" />
-        </Flex>
-
+         
+        
         <Flex
           flexDirection="column"
           flex="1"
@@ -77,7 +71,14 @@ const SalesSection: React.FC<SalesSectionProps> = (props) => {
             )}
           </Flex>
         </Flex>
-       
+        <Flex
+          height={['192px', null, null, '100%']}
+          width={['192px', null, null, '100%']}
+          flex={[null, null, null, '1']}
+          mb={['24px', null, null, '0']}
+        >
+        <Image src={bunnyImage} priority placeholder="blur" />
+        </Flex>
       </Flex>
     </Flex>
   )

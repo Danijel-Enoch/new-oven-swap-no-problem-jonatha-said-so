@@ -6,7 +6,7 @@ import { useTranslation } from 'contexts/Localization'
 import useTheme from 'hooks/useTheme'
 import Image from 'next/image'
 import styled, { keyframes } from 'styled-components'
-import bunnyImage from '../../../../public/images/home/lunar-bunny/bunny@2x.png'
+import bunnyImage from '../../../../public/images/home/lunar-bunny/banner-right-image.png'
 import CompositeImage, { CompositeImageProps } from './CompositeImage'
 import { SlideSvgDark, SlideSvgLight } from './SlideSvg'
 
@@ -21,6 +21,7 @@ const flyingAnim = () => keyframes`
     transform: translate(0, 0px);
   }
 `
+const image="https://res.cloudinary.com/daniel23/image/upload/v1659723657/image-left_leytro.png";
 
 const fading = () => keyframes`
   from {
@@ -81,7 +82,7 @@ const StarsWrapper = styled.div`
 `
 
 const starsImage: CompositeImageProps = {
-  path: '/images/home/lunar-bunny/',
+  path: 'https://res.cloudinary.com/daniel23/image/upload/v1659723657/image-left_leytro.png',
   attributes: [
     { src: 'star-l', alt: '3D Star' },
     { src: 'star-r', alt: '3D Star' },
@@ -108,11 +109,14 @@ const Hero = () => {
         id="homepage-hero"
       >
         <Flex flex="1" flexDirection="column">
-          <Heading scale="xxl" color="secondary" mb="24px">
-            {t('The moon is made of pancakes.')}
+        <Heading scale="md" mb="10px">
+            {t('with oven swap')}
+          </Heading>
+          <Heading scale="xl" color="secondary" mb="10px">
+            {t('Up to 100x Leverage.')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('Trade, earn, and win crypto on the most popular decentralized platform in the galaxy.')}
+            {t('Lorem Ipsum is simply dummy text of the printing and type setting industry.\n Lorem Ipsum has been the industrys.')}
           </Heading>
           <Flex>
             {!account && <ConnectWalletButton mr="8px" />}
@@ -131,9 +135,9 @@ const Hero = () => {
           <BunnyWrapper>
             <Image src={bunnyImage} priority placeholder="blur" alt={t('Lunar bunny')} />
           </BunnyWrapper>
-          <StarsWrapper>
-            <CompositeImage {...starsImage} />
-          </StarsWrapper>
+          {/* <StarsWrapper>
+            {/* <CompositeImage {...starsImage} /> */}
+          {/* </StarsWrapper> */} 
         </Flex>
       </Flex>
     </>

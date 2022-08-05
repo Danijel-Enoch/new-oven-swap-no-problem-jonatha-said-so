@@ -7,6 +7,8 @@ import { PageMeta } from 'components/Layout/Page'
 import { useTranslation } from 'contexts/Localization'
 import Hero from './components/Hero'
 import { swapSectionData, earnSectionData, cakeSectionData } from './components/SalesSection/data'
+import { infoSectionData} from './components/InfoSection/data'
+import {earnInfoSectionData} from "./components/EarnInfoSection/data"
 import MetricsSection from './components/MetricsSection'
 import SalesSection from './components/SalesSection'
 import WinSection from './components/WinSection'
@@ -15,7 +17,9 @@ import Footer from './components/Footer'
 import LivePriceFeed from './components/LivePriceFeed'
 import CakeDataRow from './components/CakeDataRow'
 import { WedgeTopLeft, InnerWedgeWrapper, OuterWedgeWrapper, WedgeTopRight } from './components/WedgeSvgs'
-import UserBanner from './components/UserBanner'
+import InfoSection from "./components/InfoSection"
+import TradeInfoSection from "./components/TradeInfoSection"
+import EarnInfoSection from "./components/EarnInfoSection"
 import MultipleBanner from './components/Banners/MultipleBanner'
 
 const StyledHeroSection = styled(PageSection)`
@@ -58,17 +62,17 @@ const Home: React.FC = () => {
         background={
           theme.isDark
             ? 'radial-gradient(103.12% 50% at 50% 50%, #21193A 0%, #191326 100%)'
-            : 'linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)'
+            : 'linear-gradient(139.73deg, #ffff 0%, #F9AA4B 100%)'
         }
         index={2}
         hasCurvedDivider={false}
       >
-        {account && (
+        {/* {account && (
           <UserBannerWrapper>
             <UserBanner />
           </UserBannerWrapper>
-        )}
-        <MultipleBanner />
+        )} */}
+        {/* <MultipleBanner /> */}
         <Hero />
       </StyledHeroSection>
       <PageSection
@@ -76,7 +80,7 @@ const Home: React.FC = () => {
         background={
           theme.isDark
             ? 'linear-gradient(180deg, #09070C 22%, #201335 100%)'
-            : 'linear-gradient(180deg, #FFFFFF 22%, #D7CAEC 100%)'
+            : 'linear-gradient(180deg, #FFFFFF 22%, #FFFFFF 100%)'
         }
         index={2}
         hasCurvedDivider={false}
@@ -90,26 +94,62 @@ const Home: React.FC = () => {
         hasCurvedDivider={false}
       >
         <OuterWedgeWrapper>
-          <InnerWedgeWrapper top fill={theme.isDark ? '#201335' : '#D8CBED'}>
+          {/* <InnerWedgeWrapper top fill={theme.isDark ? '#201335' : '#D8CBED'}>
             <WedgeTopLeft />
-          </InnerWedgeWrapper>
+          </InnerWedgeWrapper> */}
         </OuterWedgeWrapper>
         <SalesSection {...swapSectionData(t)} />
       </PageSection>
+
+      {/* //////// */}
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
-        background={theme.colors.gradients.cardHeader}
+        background={theme.colors.background}
         index={2}
         hasCurvedDivider={false}
       >
         <OuterWedgeWrapper>
+          {/* <InnerWedgeWrapper top fill={theme.isDark ? '#201335' : '#D8CBED'}>
+            <WedgeTopLeft />
+          </InnerWedgeWrapper> */}
+        </OuterWedgeWrapper>
+        <InfoSection {...infoSectionData(t)} />
+      </PageSection>
+      {/* //// */}
+
+            {/* ///// */}
+      <PageSection
+        innerProps={{ style: HomeSectionContainerStyles }}
+        background={theme.colors.background}
+        index={2}
+        hasCurvedDivider={false}
+      >
+        {/* <OuterWedgeWrapper>
           <InnerWedgeWrapper width="150%" top fill={theme.colors.background}>
             <WedgeTopRight />
           </InnerWedgeWrapper>
-        </OuterWedgeWrapper>
-        <SalesSection {...earnSectionData(t)} />
+        </OuterWedgeWrapper> */}
+        <TradeInfoSection {...earnSectionData(t)} />
         <FarmsPoolsRow />
       </PageSection>
+          {/* ////// */}
+
+           {/* //////// */}
+      <PageSection
+        innerProps={{ style: HomeSectionContainerStyles }}
+        background={theme.colors.background}
+        index={2}
+        hasCurvedDivider={false}
+      >
+        {/* <OuterWedgeWrapper> */}
+          {/* <InnerWedgeWrapper top fill={theme.isDark ? '#201335' : '#D8CBED'}>
+            <WedgeTopLeft />
+          </InnerWedgeWrapper> */}
+        {/* </OuterWedgeWrapper> */}
+        <EarnInfoSection {...earnInfoSectionData(t)} />
+      </PageSection>
+      {/* //// */}
+
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background={
@@ -129,7 +169,7 @@ const Home: React.FC = () => {
         hasCurvedDivider={false}
       >
         <SalesSection {...cakeSectionData(t)} />
-        <CakeDataRow />
+      
       </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
@@ -138,7 +178,7 @@ const Home: React.FC = () => {
         hasCurvedDivider={false}
       >
         <Footer />
-        <LivePriceFeed />
+        <CakeDataRow />
       </PageSection>
     </>
   )
