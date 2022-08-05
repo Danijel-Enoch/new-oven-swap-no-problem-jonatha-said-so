@@ -85,32 +85,6 @@ const config: (
       ],
     },
     {
-      label: t('Win'),
-      href: '/prediction',
-      icon: TrophyIcon,
-      fillIcon: TrophyFillIcon,
-      supportChainIds: [ChainId.BSC],
-      items: [
-        {
-          label: t('Trading Competition'),
-          href: '/competition',
-          hideSubNav: true,
-        },
-        {
-          label: t('Prediction (BETA)'),
-          href: '/prediction',
-        },
-        {
-          label: t('Lottery'),
-          href: '/lottery',
-        },
-        {
-          label: t('Pottery (BETA)'),
-          href: '/pottery',
-        },
-      ],
-    },
-    {
       label: t('NFT'),
       href: `${nftsBaseUrl}`,
       icon: NftIcon,
