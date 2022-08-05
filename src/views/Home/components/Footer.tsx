@@ -96,13 +96,13 @@ const Footer = () => {
       </BgWrapper> */}
 
       <Wrapper>
-        <Heading mb="24px" scale="xl" color="white">
+        <Heading mb="24px" scale="xl" color="black">
           {t('Start in seconds.')}
         </Heading>
-        <Text textAlign="center" color="white">
+        <Text textAlign="center" color="#47C6CC">
           {t('Connect your crypto wallet to start using the app in seconds.')}
         </Text>
-        <Text mb="24px" bold color="white">
+        <Text mb="24px" bold color="black">
           {t('No registration needed.')}
         </Text>
 

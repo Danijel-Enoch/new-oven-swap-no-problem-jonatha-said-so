@@ -54,16 +54,14 @@ const TopRightImgWrapper = styled(Flex)`
 
 const PredictionCardData: IconCardData = {
   icon: <PredictionsIcon width="36px" color="inverseContrast" />,
-  background: 'linear-gradient(180deg, #ffb237 0%, #ffcd51 51.17%, #ffe76a 100%);',
+  background: 'linear-gradient(180deg, ##FFEBD4 0%, ##FFEBD4 51.17%, ##FFEBD4 100%);',
   borderColor: '#ffb237',
-  rotation: '-2.36deg',
 }
 
 const LotteryCardData: IconCardData = {
   icon: <TicketFillIcon color="white" width="36px" />,
   background: ' linear-gradient(180deg, #E5FEFF 0%, #E5FEFF 100%);',
-  borderColor: '#3C1786',
-  rotation: '1.43deg',
+  borderColor: '#E5FEFF',
 }
 
 const bottomLeftImage = {
