@@ -9,11 +9,9 @@ import LotteryCardContent from './LotteryCardContent'
 import CompositeImage from '../CompositeImage'
 
 const TransparentFrame = styled.div<{ isDark: boolean }>`
-  background: ${({ theme }) => (theme.isDark ? 'rgba(8, 6, 11, 0.6)' : ' rgba(255, 255, 255, 0.6)')};
+  background: ${({ theme }) => (theme.isDark ? '#ffff' : '#ffff')};
   padding: 16px;
-  border: 1px solid ${({ theme }) => theme.colors.cardBorder};
   box-sizing: border-box;
-  backdrop-filter: blur(12px);
   border-radius: 72px;
 
   ${({ theme }) => theme.mediaQueries.md} {
@@ -63,7 +61,7 @@ const PredictionCardData: IconCardData = {
 
 const LotteryCardData: IconCardData = {
   icon: <TicketFillIcon color="white" width="36px" />,
-  background: ' linear-gradient(180deg, #7645D9 0%, #5121B1 100%);',
+  background: ' linear-gradient(180deg, #E5FEFF 0%, #E5FEFF 100%);',
   borderColor: '#3C1786',
   rotation: '1.43deg',
 }
@@ -96,12 +94,8 @@ const WinSection = () => {
   return (
     <>
       <BgWrapper>
-        <BottomLeftImgWrapper>
-          <CompositeImage {...bottomLeftImage} />
-        </BottomLeftImgWrapper>
-        <TopRightImgWrapper>
-          <CompositeImage {...topRightImage} />
-        </TopRightImgWrapper>
+        <BottomLeftImgWrapper>{/* <CompositeImage {...bottomLeftImage} /> */}</BottomLeftImgWrapper>
+        <TopRightImgWrapper>{/* <CompositeImage {...topRightImage} /> */}</TopRightImgWrapper>
       </BgWrapper>
       <TransparentFrame isDark={theme.isDark}>
         <Flex flexDirection="column" alignItems="center" justifyContent="center">
