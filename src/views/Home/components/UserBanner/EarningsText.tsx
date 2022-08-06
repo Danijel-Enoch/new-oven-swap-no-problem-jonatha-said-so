@@ -16,9 +16,9 @@ export const getEarningsText = (
 
   if (numFarmsToCollect > 0 && hasCakePoolToCollect) {
     if (numFarmsToCollect > 1) {
-      earningsText = t('%earningsBusd% to collect from %count% farms and CAKE pool', data)
+      earningsText = t('%earningsBusd% to collect from %count% farms and OVE pool', data)
     } else {
-      earningsText = t('%earningsBusd% to collect from %count% farm and CAKE pool', data)
+      earningsText = t('%earningsBusd% to collect from %count% farm and OVE pool', data)
     }
   } else if (numFarmsToCollect > 0) {
     if (numFarmsToCollect > 1) {

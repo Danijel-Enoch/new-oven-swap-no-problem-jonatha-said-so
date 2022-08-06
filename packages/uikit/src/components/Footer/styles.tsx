@@ -4,7 +4,7 @@ import { Box, Flex } from "../Box";
 import SocialLinks from "./Components/SocialLinks";
 
 export const StyledFooter = styled(Flex)`
-  background: ${darkColors.backgroundAlt};
+  background: ${darkColors.footerAlt};
 `;
 
 export const StyledList = styled.ul`
@@ -53,5 +53,5 @@ export const StyledSocialLinks = styled(SocialLinks)`
 `;
 
 export const StyledText = styled.span`
-  color: ${darkColors.textAlt};
+  color: ${darkColors.text};
 `;

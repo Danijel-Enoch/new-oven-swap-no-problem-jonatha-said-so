@@ -45,3 +45,6 @@ debug.log*
 
 # turbo
 .turbo
+# Local Netlify folder
+.netlify
+.vercel

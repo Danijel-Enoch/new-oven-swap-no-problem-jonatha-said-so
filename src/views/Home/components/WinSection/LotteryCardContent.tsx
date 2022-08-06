@@ -78,7 +78,7 @@ const LotteryCardContent = () => {
           {prizesThisRound}
         </Text>
         <Text color="black" mb="40px">
-          {t('Buy tickets with CAKE, win CAKE if your numbers match')}
+          {t('Buy tickets with OVE, win OVE if your numbers match')}
         </Text>
       </Flex>
       <Flex alignItems="center" justifyContent="center">

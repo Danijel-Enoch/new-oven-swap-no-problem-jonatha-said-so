@@ -13,3 +13,4 @@ const Card: React.FC<CardProps> = ({ ribbon, children, background, ...props }) =
   );
 };
 export default Card;
+ 

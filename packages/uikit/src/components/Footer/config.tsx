@@ -4,18 +4,18 @@ import { TwitterIcon, TelegramIcon, RedditIcon, InstagramIcon, GithubIcon, Disco
 
 export const footerLinks: FooterLinkType[] = [
   {
-    label: "About Us",
+    label: "About",
     items: [
       {
-        label: "",
+        label: "Contact",
         href: "https://docs.pancakeswap.finance/contact-us",
       },
       {
-        label: "",
+        label: "Blog",
         href: "https://medium.com/pancakeswap",
       },
       {
-        label: "",
+        label: "Community",
         href: "https://docs.pancakeswap.finance/contact-us/telegram",
       },
       {
@@ -50,11 +50,11 @@ export const footerLinks: FooterLinkType[] = [
     ],
   },
   {
-    label: "Developers Welocme",
+    label: "Developers",
     items: [
       {
         label: "Github",
-        href: "",
+        href: "https://github.com/pancakeswap",
       },
       {
         label: "Documentation",
