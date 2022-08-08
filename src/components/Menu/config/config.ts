@@ -54,13 +54,13 @@ const config: (
           label: t('Liquidity'),
           href: '/liquidity',
         },
-        {
-          label: t('Perpetual'),
-          href: `https://perp.pancakeswap.finance/${perpLangMap(languageCode)}/futures/BTCUSDT?theme=${perpTheme(
-            isDark,
-          )}`,
-          type: DropdownMenuItemType.EXTERNAL_LINK,
-        },
+        // {
+        //   label: t('Perpetual'),
+        //   href: `https://perp.pancakeswap.finance/${perpLangMap(languageCode)}/futures/BTCUSDT?theme=${perpTheme(
+        //     isDark,
+        //   )}`,
+        //   type: DropdownMenuItemType.EXTERNAL_LINK,
+        // },
         // {
         //   label: t('Transfer'),
         //   href: '/transfer',
