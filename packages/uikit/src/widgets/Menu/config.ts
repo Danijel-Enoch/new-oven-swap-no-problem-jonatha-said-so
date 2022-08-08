@@ -116,18 +116,18 @@ export const links: MenuItemsType[] = [
         label: "Team Leaderboard",
         href: "/",
       },
-      {
-        type: DropdownMenuItemType.DIVIDER,
-      },
-      {
-        label: "Blog",
-        href: "/",
-      },
-      {
-        label: "Docs & Guides",
-        href: "/",
-        type: DropdownMenuItemType.EXTERNAL_LINK,
-      },
+      // {
+      //   type: DropdownMenuItemType.DIVIDER,
+      // },
+      // {
+      //   label: "Blog",
+      //   href: "/",
+      // },
+      // {
+      //   label: "Docs & Guides",
+      //   href: "/",
+      //   type: DropdownMenuItemType.EXTERNAL_LINK,
+      // },
     ],
   },
 ];

@@ -10,10 +10,10 @@ export const footerLinks: FooterLinkType[] = [
         label: "Contact",
         href: "#",
       },
-      {
-        label: "Blog",
-        href: "#",
-      },
+      // {
+      //   label: "Blog",
+      //   href: "#",
+      // },
       {
         label: "Community",
         href: "#",
