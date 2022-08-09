@@ -39,8 +39,8 @@ const Collection = () => {
 
   return (
     <>
-      <PageMeta />
-      <Header collection={collection} />
+      {/* <PageMeta />
+      <Header collection={collection} /> */}
       {content}
     </>
   )

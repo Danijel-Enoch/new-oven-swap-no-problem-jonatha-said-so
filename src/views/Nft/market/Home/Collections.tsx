@@ -15,7 +15,7 @@ const Collections: React.FC<{ title: string; testId: string; collections: Collec
 
   return (
     <>
-      <Flex alignItems="center" justifyContent="space-between" mb="32px">
+      {/* <Flex alignItems="center" justifyContent="space-between" mb="32px">
         <Heading as="h3" scale="lg" data-test={testId}>
           {title}
         </Heading>
@@ -48,7 +48,7 @@ const Collections: React.FC<{ title: string; testId: string; collections: Collec
             </CollectionCard>
           )
         })}
-      </Grid>
+      </Grid> */}
     </>
   )
 }

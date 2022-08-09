@@ -91,18 +91,6 @@ const config: (
       fillIcon: NftFillIcon,
       supportChainIds: [ChainId.BSC],
       items: [
-        {
-          label: t('Overview'),
-          href: `${nftsBaseUrl}`,
-        },
-        {
-          label: t('Collections'),
-          href: `${nftsBaseUrl}/collections`,
-        },
-        {
-          label: t('Activity'),
-          href: `${nftsBaseUrl}/activity`,
-        },
       ],
     },
     // {

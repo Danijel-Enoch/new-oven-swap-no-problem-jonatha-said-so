@@ -71,7 +71,7 @@ const Home = () => {
 
   return (
     <>
-      <PageMeta />
+      {/* <PageMeta /> */}
       <StyledPageHeader>
         <StyledHeaderInner>
           <div>
