@@ -57,7 +57,7 @@ const FarmsPoolsRow = () => {
       return vaultPoolConfig[pool.vaultKey].name
     }
 
-    return t('Stake %stakingSymbol% - Earn %earningSymbol%', {
+    return t('Stake OVE - Earn %earningSymbol%', {
       earningSymbol: pool.earningToken.symbol,
       stakingSymbol: pool.stakingToken.symbol,
     })

@@ -54,7 +54,7 @@ export const PerformanceFee: FC<{ userData?: DeserializedVaultUser; performanceF
 
 const TotalToken = ({ total, token }: { total: BigNumber; token: Token }) => {
   if (total && total.gte(0)) {
-    return <Balance small value={getBalanceNumber(total, token.decimals)} decimals={0} unit={` ${token.symbol}`} />
+    return <Balance small value={getBalanceNumber(total, token.decimals)} decimals={0} unit={' OVE'} />
   }
   return <Skeleton width="90px" height="21px" />
 }
