@@ -99,7 +99,7 @@ const PreviousRoundCardBody: React.FC<PreviousRoundCardBodyProps> = ({ latestRou
           value={prize}
         />
         <Balance
-          unit=" CAKE"
+          unit=" OVE"
           mb="18px"
           fontSize="14px"
           color="textSubtle"

@@ -88,7 +88,7 @@ const DetailsView: React.FC<DetailsViewProps> = ({
           <Text>
             {isBoostingExpired
               ? t(
-                  'Your OVE boosting was expired at the snapshot block. Renew your fixed-term staking position to activate the boost for future voting proposals.',
+                  'Your  boosting was expired at the snapshot block. Renew your fixed-term staking position to activate the boost for future voting proposals.',
                 )
               : t(
                   'Voting power is calculated using the staking amount and remaining staking duration of the fixed-term CAKE staking position at the block.',
@@ -152,7 +152,7 @@ const DetailsView: React.FC<DetailsViewProps> = ({
             <Flex alignItems="center" justifyContent="space-between" mb="4px">
               <Flex>
                 <Text color="textSubtle" fontSize="16px">
-                  {t('Fixed Term CAKE Staking')}
+                  {t('Fixed Term OVE Staking')}
                 </Text>
                 {tooltipVisible && tooltip}
                 <Flex ref={targetRef}>
@@ -210,7 +210,7 @@ const DetailsView: React.FC<DetailsViewProps> = ({
       {Number.isFinite(cakeBnbLpBalance) && (
         <Flex alignItems="center" justifyContent="space-between" mb="4px">
           <Text color="textSubtle" fontSize="16px">
-            {t('CAKE BNB LP')}
+            {t('OVE BNB LP')}
           </Text>
           <Text textAlign="right">{formatNumber(cakeBnbLpBalance, 0, 3)}</Text>
         </Flex>
