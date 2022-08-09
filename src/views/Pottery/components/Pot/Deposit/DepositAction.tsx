@@ -134,7 +134,7 @@ const DepositAction: React.FC<DepositActionProps> = ({ totalValueLockedValue }) 
                 </Button>
               )}
               <LogoRoundIcon m="0 4px" width="24px" height="24px" />
-              <Text>CAKE</Text>
+              <Text>OVE</Text>
             </Flex>
           </Flex>
         </Container>

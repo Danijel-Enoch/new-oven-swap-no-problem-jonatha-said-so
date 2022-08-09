@@ -331,7 +331,7 @@ const Pools: React.FC = () => {
         {showFinishedPools && (
           <FinishedTextContainer>
             <Text fontSize={['16px', null, '20px']} color="failure" pr="4px">
-              {t('Looking for v1 CAKE syrup pools?')}
+              {t('Looking for v1 OVE syrup pools?')}
             </Text>
             <FinishedTextLink href="/migration" fontSize={['16px', null, '20px']} color="failure">
               {t('Go to migration page')}.
