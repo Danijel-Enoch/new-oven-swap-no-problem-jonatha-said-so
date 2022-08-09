@@ -28,11 +28,7 @@ const PoolCard: React.FC<{ pool: DeserializedPool; account: string }> = ({ pool,
       <PoolCardHeader isStaking={accountHasStakedBalance} isFinished={isFinished && sousId !== 0}>
         <PoolCardHeaderTitle
           title={isCakePool ? t('Manual') : t('Earn %asset%', { asset: earningToken.symbol })}
-<<<<<<< HEAD
-          subTitle={isCakePool ? t('Earn OVE, stake OVE') : t('Stake %symbol%', { symbol: stakingToken.symbol })}
-=======
           subTitle={isCakePool ? t('Earn OVE, stake OVE') : t('Stake OVE')}
->>>>>>> dc85e8d7ae71a18c3781d11578f97f61650fb4cc
         />
         <TokenPairImage primaryToken={earningToken} secondaryToken={stakingToken} width={64} height={64} />
       </PoolCardHeader>

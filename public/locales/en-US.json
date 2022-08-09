@@ -298,11 +298,7 @@
   "This pool’s rewards aren’t compounded automatically, so we show APR": "This pool’s rewards aren’t compounded automatically, so we show APR",
   "Auto": "Auto",
   "Manual": "Manual",
-<<<<<<< HEAD
-  "Earn OVE, stake OVE": "Earn CAKE, stake OVE",
-=======
   "Earn OVE, stake OVE": "Earn OVE, stake OVE",
->>>>>>> dc85e8d7ae71a18c3781d11578f97f61650fb4cc
   "Help": "Help",
   "Syrup Pools": "Syrup Pools",
   "Best round: #%roundId%": "Best round: #%roundId%",
