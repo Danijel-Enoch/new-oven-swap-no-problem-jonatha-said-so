@@ -49,31 +49,6 @@ export const footerLinks: FooterLinkType[] = [
       },
     ],
   },
-  {
-    label: "Developers",
-    items: [
-      {
-        label: "Github",
-        href: "#",
-      },
-      {
-        label: "Documentation",
-        href: "#",
-      },
-      {
-        label: "Bug Bounty",
-        href: "#",
-      },
-      {
-        label: "Audits",
-        href: "#",
-      },
-      {
-        label: "Careers",
-        href: "#",
-      },
-    ],
-  },
 ];
 
 export const socials = [
@@ -147,31 +122,6 @@ export const socials = [
         href: "#",
       },
     ],
-  },
-  {
-    label: "Reddit",
-    icon: RedditIcon,
-    href: "#",
-  },
-  {
-    label: "Instagram",
-    icon: InstagramIcon,
-    href: "#",
-  },
-  {
-    label: "Github",
-    icon: GithubIcon,
-    href: "#",
-  },
-  {
-    label: "Discord",
-    icon: DiscordIcon,
-    href: "#",
-  },
-  {
-    label: "Medium",
-    icon: MediumIcon,
-    href: "#",
   },
 ];
 

@@ -91,18 +91,14 @@ const WinSection = () => {
 
   return (
     <>
-      <BgWrapper>
-        <BottomLeftImgWrapper>{/* <CompositeImage {...bottomLeftImage} /> */}</BottomLeftImgWrapper>
-        <TopRightImgWrapper>{/* <CompositeImage {...topRightImage} /> */}</TopRightImgWrapper>
-      </BgWrapper>
-      <TransparentFrame isDark={theme.isDark}>
-        <Flex flexDirection="column" alignItems="center" justifyContent="center">
+      {/* <TransparentFrame isDark={theme.isDark}> */}
+        {/* <Flex flexDirection="column" alignItems="center" justifyContent="center">
           <ColoredWordHeading textAlign="center" text={t('Win millions in prizes')} />
           <Text color="textSubtle">{t('Provably fair, on-chain games.')}</Text>
           <Text mb="40px" color="textSubtle">
             {t('Win big with PancakeSwap.')}
-          </Text>
-          <Flex m="0 auto" flexDirection={['column', null, null, 'row']} maxWidth="600px">
+          </Text> */}
+          {/* <Flex m="0 auto" flexDirection={['column', null, null, 'row']} maxWidth="600px">
             <Flex
               flex="1"
               maxWidth={['275px', null, null, '100%']}
@@ -118,9 +114,9 @@ const WinSection = () => {
                 <LotteryCardContent />
               </IconCard>
             </Flex>
-          </Flex>
-        </Flex>
-      </TransparentFrame>
+          </Flex> */}
+        {/* </Flex> */}
+      {/* </TransparentFrame> */}
     </>
   )
 }
