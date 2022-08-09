@@ -1,4 +1,4 @@
 const getTokenLogoURL = (address: string) =>
-  `https://assets-cdn.trustwallet.com/blockchains/smartchain/assets/${address}/logo.png`
+  `/oven-small.svg`
 
 export default getTokenLogoURL

@@ -13,7 +13,7 @@ const farms: SerializedFarmConfig[] = [
   {
     pid: 0,
     v1pid: 0,
-    lpSymbol: 'CAKE',
+    lpSymbol: 'OVE',
     lpAddresses: {
       97: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
       56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
@@ -24,7 +24,7 @@ const farms: SerializedFarmConfig[] = [
   {
     pid: 2,
     v1pid: 251,
-    lpSymbol: 'CAKE-BNB LP',
+    lpSymbol: 'OVE-BNB LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
       56: CAKE_BNB_LP_MAINNET,

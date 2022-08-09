@@ -103,7 +103,7 @@ const Pot: React.FC = () => {
               <Box>
                 <CardHeader
                   title="Pottery"
-                  subTitle="Stake CAKE, Earn CAKE, Win CAKE"
+                  subTitle="Stake OVE, Earn OVE, Win OVE"
                   primarySrc="/images/tokens/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82.svg"
                   secondarySrc="/images/tokens/pot-icon.svg"
                 />
