@@ -68,7 +68,7 @@ const PoolStatsInfo: React.FC<ExpandedFooterProps> = ({
         <Flex mb="8px" justifyContent="space-between">
           <Text small>{t('Requirement')}:</Text>
           <Text small textAlign="right">
-            {profileRequirement.required && t('Pancake Profile')}{' '}
+            {profileRequirement.required && t('OvenSwap Profile')}{' '}
             {profileRequirement.thresholdPoints.gt(0) && (
               <Text small>
                 {profileRequirement.thresholdPoints.toNumber().toLocaleString()} {t('Profile Points')}
