@@ -299,10 +299,14 @@
   "Auto": "Auto",
   "Manual": "Manual",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Earn OVE, stake OVE": "Earn CAKE, stake OVE",
 =======
   "Earn OVE, stake OVE": "Earn OVE, stake OVE",
 >>>>>>> dc85e8d7ae71a18c3781d11578f97f61650fb4cc
+=======
+  "Earn CAKE, stake CAKE": "Earn CAKE, stake CAKE",
+>>>>>>> parent of d58251e8 (change few cakes to OVE)
   "Help": "Help",
   "Syrup Pools": "Syrup Pools",
   "Best round: #%roundId%": "Best round: #%roundId%",
@@ -1565,7 +1569,7 @@
   "Hold some OVE in your wallet or on Ovenswap at the snapshot block to get voting power for future proposals.": "Hold some OVE in your wallet or on Ovenswap at the snapshot block to get voting power for future proposals.",
   "Preparing": "Preparing",
   "Perpetual": "Perpetual",
-  "Stake OVE": "Stake OVE",
+  "Stake CAKE": "Stake CAKE",
   "Stake, Earn – And more!": "Stake, Earn – And more!",
   "Flexible": "Flexible",
   "Locked": "Locked",

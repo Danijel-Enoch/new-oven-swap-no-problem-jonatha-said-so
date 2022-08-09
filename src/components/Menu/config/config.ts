@@ -54,13 +54,13 @@ const config: (
           label: t('Liquidity'),
           href: '/liquidity',
         },
-        // {
-        //   label: t('Perpetual'),
-        //   href: `https://perp.pancakeswap.finance/${perpLangMap(languageCode)}/futures/BTCUSDT?theme=${perpTheme(
-        //     isDark,
-        //   )}`,
-        //   type: DropdownMenuItemType.EXTERNAL_LINK,
-        // },
+        {
+          label: t('Perpetual'),
+          href: `https://perp.pancakeswap.finance/${perpLangMap(languageCode)}/futures/BTCUSDT?theme=${perpTheme(
+            isDark,
+          )}`,
+          type: DropdownMenuItemType.EXTERNAL_LINK,
+        },
         // {
         //   label: t('Transfer'),
         //   href: '/transfer',
@@ -105,47 +105,47 @@ const config: (
         },
       ],
     },
-    // {
-    //   label: '',
-    //   href: '/info',
-    //   icon: MoreIcon,
-    //   hideSubNav: true,
-    //   supportChainIds: [ChainId.BSC],
-    //   items: [
-    //     {
-    //       label: t('Info'),
-    //       href: '/info',
-    //     },
-    //     {
-    //       label: t('IFO'),
-    //       href: '/ifo',
-    //     },
-    //     {
-    //       label: t('Voting'),
-    //       href: '/voting',
-    //     },
-    //     {
-    //       type: DropdownMenuItemType.DIVIDER,
-    //     },
-    //     {
-    //       label: t('Leaderboard'),
-    //       href: '/teams',
-    //     },
-    //     {
-    //       type: DropdownMenuItemType.DIVIDER,
-    //     },
-    //     {
-    //       label: t('Blog'),
-    //       href: 'https://medium.com/pancakeswap',
-    //       type: DropdownMenuItemType.EXTERNAL_LINK,
-    //     },
-    //     {
-    //       label: t('Docs'),
-    //       href: 'https://docs.pancakeswap.finance',
-    //       type: DropdownMenuItemType.EXTERNAL_LINK,
-    //     },
-    //   ],
-    // },
+    {
+      label: '',
+      href: '/info',
+      icon: MoreIcon,
+      hideSubNav: true,
+      supportChainIds: [ChainId.BSC],
+      items: [
+        {
+          label: t('Info'),
+          href: '/info',
+        },
+        {
+          label: t('IFO'),
+          href: '/ifo',
+        },
+        {
+          label: t('Voting'),
+          href: '/voting',
+        },
+        {
+          type: DropdownMenuItemType.DIVIDER,
+        },
+        {
+          label: t('Leaderboard'),
+          href: '/teams',
+        },
+        {
+          type: DropdownMenuItemType.DIVIDER,
+        },
+        {
+          label: t('Blog'),
+          href: 'https://medium.com/pancakeswap',
+          type: DropdownMenuItemType.EXTERNAL_LINK,
+        },
+        {
+          label: t('Docs'),
+          href: 'https://docs.pancakeswap.finance',
+          type: DropdownMenuItemType.EXTERNAL_LINK,
+        },
+      ],
+    },
   ].filter((item) => filterItemBySupportChainId(item, chainId))
 
 export default config
