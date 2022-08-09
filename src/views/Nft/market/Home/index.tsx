@@ -79,48 +79,18 @@ const Home = () => {
               {t('NFT Marketplace')}
             </Heading>
             <Heading scale="lg" color="text">
-              {t('Buy and Sell NFTs on BNB Smart Chain')}
+              {t('Coming Soon')}
             </Heading>
-            {account && (
+            {/* {account && (
               <Button as={NextLinkFromReactRouter} to={`/profile/${account.toLowerCase()}`} mt="32px">
                 {t('Manage/Sell')}
               </Button>
-            )}
+            )} */}
           </div>
-          <SearchBar />
+          {/* <SearchBar /> */}
         </StyledHeaderInner>
       </StyledPageHeader>
-      {status !== FetchStatus.Fetched ? (
-        <PageLoader />
-      ) : (
-        <PageSection
-          innerProps={{ style: { margin: '0', width: '100%' } }}
-          background={theme.colors.background}
-          index={1}
-          concaveDivider
-          dividerPosition="top"
-        >
-          <Collections
-            key="newest-collections"
-            title={t('Newest Collections')}
-            testId="nfts-newest-collections"
-            collections={newestCollections}
-          />
-          <Collections
-            key="hot-collections"
-            title={t('Hot Collections')}
-            testId="nfts-hot-collections"
-            collections={hotCollections}
-          />
-          <Newest />
-        </PageSection>
-      )}
-      <Gradient p="64px 0">
-        <SectionsWithFoldableText header={t('FAQs')} config={config(t)} m="auto" />
-        <LinkExternal href="https://docs.pancakeswap.finance/contact-us/nft-market-applications" mx="auto" mt="16px">
-          {t('Apply to NFT Marketplace!')}
-        </LinkExternal>
-      </Gradient>
+  
     </>
   )
 }
