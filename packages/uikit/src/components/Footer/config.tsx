@@ -55,73 +55,12 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "#",
+    href: "https://twitter.com/OvenSwapInfo",
   },
   {
     label: "Telegram",
     icon: TelegramIcon,
-    items: [
-      {
-        label: "English",
-        href: "#",
-      },
-      {
-        label: "Bahasa Indonesia",
-        href: "#",
-      },
-      {
-        label: "中文",
-        href: "#",
-      },
-      {
-        label: "Tiếng Việt",
-        href: "#",
-      },
-      {
-        label: "Italiano",
-        href: "#",
-      },
-      {
-        label: "русский",
-        href: "#",
-      },
-      {
-        label: "Türkiye",
-        href: "#",
-      },
-      {
-        label: "Português",
-        href: "#",
-      },
-      {
-        label: "Español",
-        href: "#",
-      },
-      {
-        label: "日本語",
-        href: "#",
-      },
-      {
-        label: "Français",
-        href: "#",
-      },
-      {
-        label: "Deutsch",
-        href: "#",
-      },
-      {
-        label: "Filipino",
-        href: "#",
-      },
-      {
-        label: "ქართული ენა",
-        href: "#",
-      },
-      {
-        label: "Announcements",
-        href: "#",
-      },
-    ],
+    href:"https://t.me/ovenswapinfo",
   },
 ];
 

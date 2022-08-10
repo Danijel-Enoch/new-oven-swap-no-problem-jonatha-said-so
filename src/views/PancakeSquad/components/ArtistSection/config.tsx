@@ -22,13 +22,13 @@ const artistConfigBuilder = ({ t, isDark }: ArtistConfigType) => ({
   ],
   buttons: [
     {
-      to: 'https://twitter.com/cecymeade',
+      to: 'https://twitter.com/OvenSwapInfo',
       text: t('Follow on Twitter'),
       external: true,
       icon: <TwitterIcon color="white" />,
     },
     {
-      to: 'https://www.instagram.com/cecymeade/',
+      to: 'https://t.me/ovenswapinfo',
       text: t('Follow on Instagram'),
       external: true,
       icon: <InstagramIcon color="white" />,
