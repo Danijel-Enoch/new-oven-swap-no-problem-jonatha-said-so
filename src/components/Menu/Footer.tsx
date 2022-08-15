@@ -49,7 +49,7 @@ const Footer: React.FC<{ variant?: FooterVariant; helpUrl?: string }> = ({
       <Flex flexDirection={isSide ? 'column' : ['column', 'column', 'row']} alignItems="center">
         <LinkExternal
           id="ercBridge"
-          href="https://help.ovendoa.fi"
+          href="https://help.ovendao.fi"
           ml={[0, 0, '40px']}
           mt={['20px', '20px', isSide ? '20px' : 0]}
           mb={['8px', '8px', 0]}

@@ -11,7 +11,7 @@ export const infoSectionData = (t: TranslateFunction): SalesSectionProps => ({
     external: false,
   },
   secondaryButton: {
-    to: 'https://help.ovendoa.fi',
+    to: 'https://help.ovendao.fi',
     text: t('Learn'),
     external: true,
   },
@@ -35,7 +35,7 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
     external: false,
   },
   secondaryButton: {
-    to: 'https://help.ovendoa.fiyield-farming',
+    to: 'https://help.ovendao.fiyield-farming',
     text: t('Learn'),
     external: true,
   },
@@ -61,7 +61,7 @@ export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
     external: false,
   },
   secondaryButton: {
-    to: 'https://help.ovendoa.fi',
+    to: 'https://help.ovendao.fi',
     text: t('Learn'),
     external: true,
   },

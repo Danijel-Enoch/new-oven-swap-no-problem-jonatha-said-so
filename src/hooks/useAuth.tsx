@@ -46,7 +46,7 @@ const useAuth = () => {
                 t('Provider Error'),
                 <Box>
                   <Text>{t('No provider was found')}</Text>
-                  <LinkExternal href="https://help.ovendoa.fi">
+                  <LinkExternal href="https://help.ovendao.fi">
                     {t('Need help ?')}
                   </LinkExternal>
                 </Box>,
