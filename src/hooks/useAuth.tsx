@@ -44,12 +44,12 @@ const useAuth = () => {
             if (error instanceof NoEthereumProviderError || error instanceof NoBscProviderError) {
               toastError(
                 t('Provider Error'),
-                // <Box>
-                //   <Text>{t('No provider was found')}</Text>
-                //   <LinkExternal href="https://docs.pancakeswap.finance/get-started/connection-guide">
-                //     {t('Need help ?')}
-                //   </LinkExternal>
-                // </Box>,
+                <Box>
+                  <Text>{t('No provider was found')}</Text>
+                  <LinkExternal href="https://help.ovendoa.fi">
+                    {t('Need help ?')}
+                  </LinkExternal>
+                </Box>,
               )
             } else if (
               error instanceof UserRejectedRequestErrorInjected ||

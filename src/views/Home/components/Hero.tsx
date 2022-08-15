@@ -116,7 +116,7 @@ const Hero = () => {
             {t('Up to 100x Leverage.')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('Lorem Ipsum is simply dummy text of the printing and type setting industry.\n Lorem Ipsum has been the industrys.')}
+            {t('Trade, Earn & Win in Crypto on the newest & Most Popular Decentralized Platform')}
           </Heading>
           <Flex>
             {!account && <ConnectWalletButton mr="8px" />}
