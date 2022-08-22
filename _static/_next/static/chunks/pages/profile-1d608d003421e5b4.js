@@ -1,2 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[277],{99813:function(a,b,c){(window.__NEXT_P=window.__NEXT_P||[]).push(["/profile",function(){return c(2254)}])},2254:function(c,b,a){"use strict";a.r(b);var d=a(77044),e=a(11163),f=a(67294),g=a(40580);b.default=function(){var a=(0,d.Ge)().account,b=(0,e.useRouter)();return(0,f.useEffect)(function(){a?b.push("/profile/".concat(a.toLowerCase())):b.push(g.V)},[a,b]),null}}},function(a){a.O(0,[9774,2888,179],function(){var b;return a(a.s=99813)}),_N_E=a.O()}])
-//# sourceMappingURL=profile-1d608d003421e5b4.js.map
