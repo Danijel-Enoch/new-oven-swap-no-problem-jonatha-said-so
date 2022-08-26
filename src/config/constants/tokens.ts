@@ -6,7 +6,7 @@ const CAKE_MAINNET = new Token(
   18,
   'OVE',
   'PancakeSwap Token',
-  'https://pancakeswap.finance/',
+  'https://ovenswapfi.com/',
 )
 
 const CAKE_TESTNET = new Token(
@@ -15,7 +15,7 @@ const CAKE_TESTNET = new Token(
   18,
   'OVE',
   'PancakeSwap Token',
-  'https://pancakeswap.finance/',
+  'https://ovenswapfi.com/',
 )
 
 const USDC_BSC = new Token(
@@ -282,7 +282,7 @@ export const bscTokens = {
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'https://ovenswapfi.com/',
   ),
   pha: new Token(
     ChainId.BSC,
@@ -2342,7 +2342,7 @@ export const bscTestnetTokens = {
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'https://ovenswapfi.com/',
   ),
   bake: new Token(
     ChainId.BSC_TESTNET,

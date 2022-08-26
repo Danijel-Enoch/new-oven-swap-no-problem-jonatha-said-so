@@ -1912,7 +1912,7 @@ exports[`renders correctly 1`] = `
           >
             <a
               class="c27"
-              href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+              href="https://ovenswapfi.com/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
               target="_blank"
             >
               <svg
@@ -2269,7 +2269,7 @@ exports[`renders correctly 1`] = `
                     class="c60 c61"
                     color="#F4EEFF"
                     font-size="16px"
-                    href="https://docs.pancakeswap.finance/contact-us"
+                    href="https://docs.ovenswapfi.com/contact-us"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2297,7 +2297,7 @@ exports[`renders correctly 1`] = `
                     class="c60 c61"
                     color="#F4EEFF"
                     font-size="16px"
-                    href="https://docs.pancakeswap.finance/contact-us/telegram"
+                    href="https://docs.ovenswapfi.com/contact-us/telegram"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2311,7 +2311,7 @@ exports[`renders correctly 1`] = `
                     class="c60 c61"
                     color="#F4EEFF"
                     font-size="16px"
-                    href="https://docs.pancakeswap.finance/tokenomics/cake"
+                    href="https://docs.ovenswapfi.com/tokenomics/cake"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2357,7 +2357,7 @@ exports[`renders correctly 1`] = `
                     class="c60 c61"
                     color="#F4EEFF"
                     font-size="16px"
-                    href="Support https://docs.pancakeswap.finance/contact-us/customer-support"
+                    href="Support https://docs.ovenswapfi.com/contact-us/customer-support"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2371,7 +2371,7 @@ exports[`renders correctly 1`] = `
                     class="c60 c61"
                     color="#F4EEFF"
                     font-size="16px"
-                    href="https://docs.pancakeswap.finance/help/troubleshooting"
+                    href="https://docs.ovenswapfi.com/help/troubleshooting"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2385,7 +2385,7 @@ exports[`renders correctly 1`] = `
                     class="c60 c61"
                     color="#F4EEFF"
                     font-size="16px"
-                    href="https://docs.pancakeswap.finance/get-started"
+                    href="https://docs.ovenswapfi.com/get-started"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2422,7 +2422,7 @@ exports[`renders correctly 1`] = `
                     class="c60 c61"
                     color="#F4EEFF"
                     font-size="16px"
-                    href="https://docs.pancakeswap.finance"
+                    href="https://docs.ovenswapfi.com"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2450,7 +2450,7 @@ exports[`renders correctly 1`] = `
                     class="c60 c61"
                     color="#F4EEFF"
                     font-size="16px"
-                    href="https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited"
+                    href="https://docs.ovenswapfi.com/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2464,7 +2464,7 @@ exports[`renders correctly 1`] = `
                     class="c60 c61"
                     color="#F4EEFF"
                     font-size="16px"
-                    href="https://docs.pancakeswap.finance/hiring/become-a-chef"
+                    href="https://docs.ovenswapfi.com/hiring/become-a-chef"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -3145,7 +3145,7 @@ exports[`renders correctly 1`] = `
                 >
                   <a
                     class="c27"
-                    href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+                    href="https://ovenswapfi.com/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
                     target="_blank"
                   >
                     <svg
@@ -3209,7 +3209,7 @@ exports[`renders correctly 1`] = `
                 </div>
                 <a
                   class="c92"
-                  href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+                  href="https://ovenswapfi.com/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
                   scale="sm"
                   target="_blank"
                 >

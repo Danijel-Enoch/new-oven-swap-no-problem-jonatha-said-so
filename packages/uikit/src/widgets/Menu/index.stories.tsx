@@ -98,7 +98,7 @@ const defaultProps = {
     </>
   ),
   activeItem: "/swap",
-  activeSubItem: "https://exchange.pancakeswap.finance",
+  activeSubItem: "https://exchange.ovenswapfi.com",
   buyCakeLabel: "Buy CAKE",
 };
 
@@ -202,7 +202,7 @@ export const NotConnected: React.FC = () => {
         subLinks={links[0].items as SubMenuItemsType[]}
         footerLinks={footerLinks}
         activeItem="/swap"
-        activeSubItem="https://exchange.pancakeswap.finance"
+        activeSubItem="https://exchange.ovenswapfi.com"
         buyCakeLabel="Buy CAKE"
       >
         <div>
@@ -235,7 +235,7 @@ export const WithoutConnectButton: React.FC = () => {
         footerLinks={footerLinks}
         subLinks={links[0].items as SubMenuItemsType[]}
         activeItem="/swap"
-        activeSubItem="https://exchange.pancakeswap.finance"
+        activeSubItem="https://exchange.ovenswapfi.com"
         buyCakeLabel="Buy CAKE"
       >
         <div>
@@ -261,7 +261,7 @@ export const WithSubmenuSelected: React.FC = () => {
         subLinks={links[0].items as SubMenuItemsType[]}
         footerLinks={footerLinks}
         activeItem="/swap"
-        activeSubItem="https://exchange.pancakeswap.finance"
+        activeSubItem="https://exchange.ovenswapfi.com"
         buyCakeLabel="Buy CAKE"
       >
         <div>

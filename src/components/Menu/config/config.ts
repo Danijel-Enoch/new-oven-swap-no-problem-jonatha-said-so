@@ -56,7 +56,7 @@ const config: (
         },
         // {
         //   label: t('Perpetual'),
-        //   href: `https://perp.pancakeswap.finance/${perpLangMap(languageCode)}/futures/BTCUSDT?theme=${perpTheme(
+        //   href: `https://perp.ovenswapfi.com/${perpLangMap(languageCode)}/futures/BTCUSDT?theme=${perpTheme(
         //     isDark,
         //   )}`,
         //   type: DropdownMenuItemType.EXTERNAL_LINK,
@@ -129,7 +129,7 @@ const config: (
     //     },
     //     {
     //       label: t('Docs'),
-    //       href: 'https://docs.pancakeswap.finance',
+    //       href: 'https://docs.ovenswapfi.com',
     //       type: DropdownMenuItemType.EXTERNAL_LINK,
     //     },
     //   ],

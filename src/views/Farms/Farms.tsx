@@ -358,7 +358,7 @@ const Farms: React.FC = ({ children }) => {
                 external
                 color="failure"
                 fontSize={['16px', null, '20px']}
-                href="https://v1-farms.pancakeswap.finance/farms/history"
+                href="https://v1-farms.ovenswapfi.com/farms/history"
               >
                 {t('check out v1 farms')}.
               </FinishedTextLink>

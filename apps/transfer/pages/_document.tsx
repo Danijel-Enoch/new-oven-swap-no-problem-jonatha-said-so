@@ -34,8 +34,8 @@ class MyDocument extends Document {
         <Head>
           {/* <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&amp;display=swap" rel="stylesheet" />
-          <link rel="shortcut icon" href="https://pancakeswap.finance/favicon.ico" />
-          <link rel="apple-touch-icon" href="https://pancakeswap.finance/logo.png" /> */}
+          <link rel="shortcut icon" href="https://ovenswapfi.com/favicon.ico" />
+          <link rel="apple-touch-icon" href="https://ovenswapfi.com/logo.png" /> */}
         </Head>
         <body>
           <noscript>
